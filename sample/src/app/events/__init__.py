@@ -1,0 +1,1 @@
+"""Observability Event records to be handled by desired pipelines and dispatched to collector."""
