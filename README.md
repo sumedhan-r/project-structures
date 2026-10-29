@@ -44,6 +44,7 @@ Organize your code by architectural patterns and infrastructure roles rather tha
 | **`handlers/`** | Event and request handlers for specific types | Domain event handlers, webhook handlers, exception handlers |
 | **`validators/`** | Validation logic separated from models | Business rule validators, cross-field validators |
 | **`transformers/`** | Data transformation logic | DTO transformers, format converters, schema migrators |
+| **`services/`** | Business logic and use cases that coordinate other components | Order service, user registration, report generation |
 | **`repositories/`** | Data access layer abstracting storage | Database repositories, cache repositories |
 | **`routes/`** or **`endpoints/`** | API routes (for web applications) | REST endpoints, GraphQL resolvers |
 | **`models/`** | Data models and domain entities | Pydantic models, SQLAlchemy models, domain objects |
